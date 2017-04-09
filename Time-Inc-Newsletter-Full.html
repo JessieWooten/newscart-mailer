@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Email Title</title>
+	<!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+
 	<style type="text/css">
+	body {
+		margin: 0 auto;
+	}
 	a{
-			text-decoration: none;
-			-moz-transition: all .1s ease-in;
-    		-o-transition: all .1s ease-in;
-   		 	-webkit-transition: all .1s ease-in;
-    		transition: all .1s ease-in;
-    		color: #7f7f7f;
-		}
+		text-decoration: none;
+    	color: #7f7f7f;
+	}
 	a:hover{
 		color: #00a9e3;
 		text-decoration: underline;
@@ -18,101 +19,49 @@
 	table, td, th, tr{
     	border-collapse: collapse;
     }
-    /*a img{
-    	position: absolute;
-    	clip: rect(0px,140px,140px,0px);
-    }*/
+
     a img:hover{
     	box-shadow: 0px 0px 10px #00a9e3;
     }
-	/* List with Thumbnails & Summary Stacked Pattern CSS */
-	@media only screen and (max-width: 599px) {
-        td[class*="pattern"] table { width: 100%; }
-        td[class*="pattern"] img {
-            width: 100%;
-            height: auto !important;
-        }
-        td[class="pattern-horizontal"] .col td {
-            width: 70%;
-            padding-right: 0 !important;
-        }
-        td[class*="pattern"] .col td:first-child {
-            width: 30%;
-        }
-        img.pattern-horizontal {
-            max-width: 100%;
-            height: auto !important;
-        }
-        td[class="pattern-vertical"] .col {
-            width: 25%;
-        }
-	}
-    @media only screen and (max-width: 450px) {
-        td[class*="pattern"] img { width: 160px; margin: 0 auto; }
-        td[class*="pattern"] .col td,
-        td[class*="pattern"] .col td:first-child {
-            width: 100%;
-            display: block;
-            text-align: center;
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-        }
-        td[class*="pattern"] td.description {
-            padding: 10px 18px 20px 18px !important;
-        }
-        td[class*="pattern"] td.description strong {
-            font-size: 20px;
-        }
-    }
 
-    @media only screen and (max-width: 430px) {
-        td[class="pattern-vertical"] .col {
-            width: 50%;
-            float: left;
-            margin-bottom: 20px;
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-        }
-        td[class="pattern-vertical"] .col table,
-        td[class="pattern-vertical"] .col img { width: 100%; }
-    }
-    @media only screen and (max-width: 380px) {
-        td[class="pattern-vertical"] .col {
-            width: 100%;
-            display: block;
-            float: none;
-            padding: 0 !important;
-        }
-        td[class="pattern-vertical"] .col tr {
-            display: table-cell;
-            width: 60%;
-        }
-        td[class="pattern-vertical"] .col tr:first-child {
-            width: 40%;
-            padding-right: 20px;
-        }
-        td[class="pattern-vertical"] .col td {
-            font-size: 16px !important;
-        }
-    }
-	
+
 	</style>
-		
+
 </head>
-<body style="font-family: roboto;">
-	<!--header start-->
+<body style="font-family: 'Roboto', sans-serif;">
+
+
+	<!--||| HEADER START |||-->
 	<table cellpadding="0" cellspacing="0" style="width: 600; background-color: #00a9e3; border-bottom: 2px solid #7f7f7f;">
 		<tr class="row">
 			<td class="col" valign="top" width="600" >
 				<img src="https://s21.postimg.org/8xf2ceezr/Time-_Inc-header.jpg" alt="" width="250" style="padding:5px;">
 			</td>
 		</tr>
-	</table><!--header end-->
+	</table>
+	<!--||| HEADER END |||-->
 
-	<!--section 1 start-->
-	<img class="pattern" id="hero-image" src="http://bosadonutsaz.com/wp-content/uploads/2015/02/manydonuts.jpg" alt="" width="600"  style="display: block; border: 0; border-bottom: 2px solid #7f7f7f;" />
+
+
+	<!--||| SECTION 1 START |||-->
+
+
+	<table cellpadding="0" cellspacing="0" border="0" style="border-bottom: 2px solid #7f7f7f; border-collapse: collapse;">
+	    <tr class="row">
+	        <td class="col" valign="top" width="600">
+	            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">
+	                <tr>
+	                    <td align="left" valign="top">
+	                        <img class="pattern" src="https://image.ibb.co/nyyeGF/hero_donuts.jpg" alt="Hero Image" width="100%" align="left" style="display: block; border: 0; padding: 0px; margin: 0;" />
+	                    </td>
+	                </tr>
+	            </table>
+	        </td>
+	    </tr>
+	</table>
+
+
+
 	<table cellpadding="0" cellspacing="0" style="border-bottom: 2px solid #7f7f7f;">
 
 		<tr class="row"> <!-- section 1 title start-->
@@ -120,10 +69,10 @@
 				<h2 style="background-color:#00a9e3; display: inline-block; color: #fff; padding: 10px; margin:0px; margin-bottom: 10px;">Spotlight</h2>
 			</td>
 		</tr><!-- section 1 title end-->
-		
+
 		<tr class="row">
 	        <td class="col" valign="top" width="600" style="padding-bottom: 40px;"><!--article title-->
-				<strong style="color: #00a9e3; padding-left: 10px; line-height: 10px !important;">Complementary Donuts in the Break Room Today!</strong>
+				<strong style="color: #00a9e3; display: block; padding-left: 10px; font-size:18px; padding-top: 5px; !important;">Complementary Donuts in the Break Room Today!</strong>
 				<p style="margin-top: 5px; margin-bottom: 0px; padding-left: 10px; padding-bottom: 5px; font-size: 14px; font-style: italic; color: #7f7f7f;">
 	             March 2, 2017
 	            </p>
@@ -133,17 +82,20 @@
 		</tr>
 
 	</table>
-	<!--section 1 end-->
+
+	<!--||| SECTION 1 END |||-->
 
 
 
-	<!--section 2 start-->
+	<!--||| SECTION 2 START |||-->
 	<table cellpadding="0" cellspacing="0" style="background-color: #ebebeb; border-bottom: 2px solid #7f7f7f;">
-		<tr class="row"> <!-- section 2 title start-->
+		<!-- section 2 title start-->
+		<tr class="row">
 			<td class="col" valign="top" width="600" >
 				<h2 style="background-color:#00a9e3; display: inline-block; color: #fff; padding: 10px; margin:0px; margin-bottom: 10px;">Company News</h2>
 			</td>
-		</tr><!-- section 2 title end-->
+		</tr>
+		<!-- section 2 title end-->
 
 	    <tr><!--horizontal row 1 start-->
 	        <td class="pattern-horizontal" width="600">
@@ -153,10 +105,10 @@
 	                        <table cellpadding="0" cellspacing="0">
 	                            <tr>
 	                                <td align="left" valign="top">
-	                                    <a href="https://www.nytimes.com/2017/02/28/business/media/time-inc-people-sports-illustrated.html?_r=0" target="_blank"><img src="https://si.wsj.net/public/resources/images/BN-RT279_TIMEIN_J_20170123135156.jpg" alt="" style="display: block; width:140px; border: 0;" /></a>
+	                                    <a href="https://www.nytimes.com/2017/02/28/business/media/time-inc-people-sports-illustrated.html?_r=0" target="_blank"><img src="https://si.wsj.net/public/resources/images/BN-RT279_TIMEIN_J_20170123135156.jpg" alt="Article 1 Image" style="display: block; width:140px; margin-left: 10px; border: 0;" /></a>
 	                                </td>
 	                                <td class="description" align="left" valign="middle" style=" font-size: 16px; color: #333; padding: 0 16px;">
-	                                    <strong style="color: #00a9e3;line-height: 10px !important;"><a href="https://www.nytimes.com/2017/02/28/business/media/time-inc-people-sports-illustrated.html?_r=0" target="_blank" style="color: #00a9e3;">Time Inc. Asks for Formal Bids From Potential Buyers</a></strong>
+	                                    <strong style="color: #00a9e3; display: block; padding-top:5px; !important;"><a href="https://www.nytimes.com/2017/02/28/business/media/time-inc-people-sports-illustrated.html?_r=0" target="_blank" style="color: #00a9e3;">Time Inc. Asks for Formal Bids From Potential Buyers</a></strong>
 	                                    <p style="margin-top: 5px; margin-bottom: 0px; padding-bottom: 5px; font-size: 14px; font-style: italic; color: #7f7f7f;">
 	                                        Feb. 28, 2017 - Sydney Ember
 	                                    </p>
@@ -166,18 +118,17 @@
 	                        </table>
 	                    </td>
 	                </tr>
-	            <tr>
-	        <td class="pattern-horizontal" width="600"><!--horizontal row 2 start-->
-	            <table cellpadding="0" cellspacing="0">
+
+	        		<!-- horizontal row 2 start-->
 	                <tr class="row">
 	                    <td class="col" valign="top" width="600" style="padding-bottom: 20px;">
 	                        <table cellpadding="0" cellspacing="0">
 	                            <tr>
 	                                <td align="left" valign="top">
-	                                    <a href="http://www.usatoday.com/story/money/business/2017/03/01/time-inc-sets-deadline-bids-potential-buyers/98584220/" target="_blank"><img src="https://www.gannett-cdn.com/-mm-/e8dc1afbf61866c15f3ce196b0bb0b37520679bd/c=0-0-2363-3150&r=537&c=0-0-534-712/local/-/media/2017/03/01/USATODAY/USATODAY/636239681324921605-Trump.Cover.Final.jpg" alt="" style="display: block; width:140px; border: 0;" /></a>
+	                                    <a href="http://www.usatoday.com/story/money/business/2017/03/01/time-inc-sets-deadline-bids-potential-buyers/98584220/" target="_blank"><img src="https://www.gannett-cdn.com/-mm-/e8dc1afbf61866c15f3ce196b0bb0b37520679bd/c=0-0-2363-3150&r=537&c=0-0-534-712/local/-/media/2017/03/01/USATODAY/USATODAY/636239681324921605-Trump.Cover.Final.jpg" alt="Article 2 Image" style="display: block; margin-left: 10px; width:140px; border: 0;" /></a>
 	                                </td>
 	                                <td class="description" align="left" valign="middle" style="font-size: 16px; color: #333; padding: 0 16px;">
-	                                    <strong style="color: #00a9e3;line-height: 10px !important;"><a href="http://www.usatoday.com/story/money/business/2017/03/01/time-inc-sets-deadline-bids-potential-buyers/98584220/" target="_blank" style="color: #00a9e3;">Time Inc. Sets Deadlines for Bids from Potential Buyers</a></strong>
+	                                    <strong style="color: #00a9e3;display: block; padding-top:5px; !important;"><a href="http://www.usatoday.com/story/money/business/2017/03/01/time-inc-sets-deadline-bids-potential-buyers/98584220/" target="_blank" style="color: #00a9e3;">Time Inc. Sets Deadlines for Bids from Potential Buyers</a></strong>
 	                                    <p style="margin-top: 5px; margin-bottom: 0px; padding-bottom: 5px; font-size: 14px; font-style: italic; color: #7f7f7f;">
 	                                        March 1, 2017 - Mike Snider
 	                                    </p>
@@ -187,18 +138,17 @@
 	                        </table>
 	                    </td>
 	                </tr>
-	                 <tr>
-	        <td class="pattern-horizontal" width="600"><!--horizontal row 3 start-->
-	            <table cellpadding="0" cellspacing="0">
+
+	       			<!--  horizontal row 3 start-->
 	                <tr class="row">
 	                    <td class="col" valign="top" width="600" style="padding-bottom: 20px;">
 	                        <table cellpadding="0" cellspacing="0">
 	                            <tr>
 	                                <td align="left" valign="top">
-	                                    <a href="http://nypost.com/2017/03/02/time-inc-launches-new-social-media-brand-before-sale/" target="_blank"><img src="https://thenypost.files.wordpress.com/2016/11/gettyimages-510809052.jpg?quality=90&strip=all&w=1328&h=882&crop=1" alt="" style="display: block; width:140px; border: 0;" /></a>
+	                                    <a href="http://nypost.com/2017/03/02/time-inc-launches-new-social-media-brand-before-sale/" target="_blank"><img src="https://thenypost.files.wordpress.com/2016/11/gettyimages-510809052.jpg?quality=90&strip=all&w=1328&h=882&crop=1" alt="Article 3 Image" style="display: block; width:140px; border: 0; margin-left: 10px;" /></a>
 	                                </td>
 	                                <td class="description" align="left" valign="middle" style="font-size: 16px; color: #333; padding: 0 16px;">
-	                                    <strong style="color: #00a9e3;line-height: 10px !important;"><a href="http://nypost.com/2017/03/02/time-inc-launches-new-social-media-brand-before-sale/" target="_blank" style="color: #00a9e3;">Time Inc. Launches New Social Media Brand Before Sale</a></strong>
+	                                    <strong style="color: #00a9e3; display: block; padding-top:5px; !important;"><a href="http://nypost.com/2017/03/02/time-inc-launches-new-social-media-brand-before-sale/" target="_blank" style="color: #00a9e3;">Time Inc. Launches New Social Media Brand Before Sale</a></strong>
 	                                    <p style="margin-top: 5px; margin-bottom: 0px; padding-bottom: 5px; font-size: 14px; font-style: italic; color: #7f7f7f;">
 	                                        March 2, 2017 - Kieth J Kelly
 	                                    </p>
@@ -212,91 +162,130 @@
 	        </td>
 	    </tr>
 	</table>
-</table>
-</table>
-	<!--section 2 end-->
+	<!--||| SECTION 2 END |||-->
 
-	<!--section 3 start-->
-	<table cellpadding="0" cellspacing="0" style="border-bottom: 2px solid #7f7f7f;">
+
+
+
+	<!--||| SECTION 3 START |||-->
+	<table cellpadding="0" cellspacing="0" >
 		<tr class="row"> <!-- section 2 title start-->
 			<td class="col" valign="top" width="600" >
 				<h2 style="background-color:#00a9e3; display: inline-block; color: #fff; padding: 10px; margin:0px; margin-bottom: 10px;">Industry News</h2>
 			</td>
-		</tr><!-- section 2 title end-->
+		</tr>
+		<!-- section 2 title end-->
+
     	<tr>
 	        <td class="pattern-vertical" width="600">
 	            <table cellpadding="0" cellspacing="0">
-	                <tr>
-	                	<!--vertical row 1 start-->
+
+	                <!--HORIZONTAL row 1 START, images-->
+	                <tr valign="bottom">
+	                	<!--Image 1 start-->
+	                    <td class="col" width="200" style="padding: 0 5px;">
+	                        <table cellpadding="0" cellspacing="0" align="center">
+	                            <tr>
+	                                <td align="left" valign="top" width="140">
+	                                	<a href="https://www.forbes.com/sites/alexknapp/2017/03/03/industry-veteran-and-satellite-startup-join-forces-to-industrialize-space/#6bff89dc1c09" target="_blank"><img src="https://blogs-images.forbes.com/alexknapp/files/2017/03/york-chuck-e1488578167336.jpg?width=960" width="100%" alt="Article 1 Image" style="display: block; border: 0; margin: auto;" /></a>
+	                                </td>
+	                            </tr>
+	                        </table>
+	                    </td>
+	                    <!-- Image 1 end-->
+	                    <!--Image 2 start-->
+	                    <td class="col" width="200" style="padding: 0 5px;">
+	                        <table cellpadding="0" cellspacing="0" align="center">
+	                            <tr>
+	                                <td align="left" valign="top" width="140">
+	                                	<a href="http://www.nbcnews.com/tech/tech-news/tesla-boss-elon-musk-takes-advice-fifth-grader-twitter-n728026" target="_blank"><img src="http://static5.businessinsider.com/image/555f4a026bb3f7102072d40a/elon-musk-didnt-like-his-kids-school-so-he-made-his-own-small-secretive-school-without-grade-levels.jpg" width="100%" alt="Article 2 Image" style="display: block; border: 0; margin: auto;" /></a>
+	                                </td>
+	                            </tr>
+	                            </table>
+	                    </td>
+	                    <!--Image 2 end-->
+	                    <!--Image 3 start-->
+	                    <td class="col" width="200" style="padding: 0 5px;">
+	                        <table cellpadding="0" cellspacing="0" align="center">
+	                            <tr>
+	                                <td align="left" valign="top" width="140">
+	                                	<a href="http://time.com/4685370/iphone-8-rumors-charging-2017/" target="_blank"><img src="https://timedotcom.files.wordpress.com/2017/02/gettyimages-501880523.jpg?w=1100&quality=85" width="100%" alt="Article 3 Image" style="display: block; border: 0; margin: auto;" /></a>
+	                                </td>
+	                            </tr>
+	                            </table>
+	                    </td>
+	                    <!--Image 3 end-->
+					</tr>
+	                    <!--HORIZONTAL IMAGE ROW END-->
+
+
+						<!--Horizontal ARTICLE ROW START, descriptions-->
+					<tr valign="top">
+	                    <!--Article 1 start-->
 	                    <td class="col" width="200" style="padding: 0 5px; padding-bottom: 10px;">
 	                        <table cellpadding="0" cellspacing="0" align="center">
 	                            <tr>
-	                                <td align="left">
-	                                	<a href="https://www.forbes.com/sites/alexknapp/2017/03/03/industry-veteran-and-satellite-startup-join-forces-to-industrialize-space/#6bff89dc1c09" target="_blank"><img src="https://blogs-images.forbes.com/alexknapp/files/2017/03/york-chuck-e1488578167336.jpg?width=960" width="140" alt="" style="display: block; border: 0;" /></a>
-	                                </td>
-	                            </tr>
-	                            <tr>
-	                                <td align="left" width="140"style="font-size: 14px; color: #333; padding-top: 10px;">
+	                                <td align="left" width="140" valign="top" style="font-size: 14px; color: #333; padding-top: 10px;">
 	                                    <strong><a href="https://www.forbes.com/sites/alexknapp/2017/03/03/industry-veteran-and-satellite-startup-join-forces-to-industrialize-space/#6bff89dc1c09" target="_blank" style="color: #00a9e3;">Industry Veteran and Satellite Startup Join Forces to Industrialize Space</a></strong><br />
 	                                    <a href="https://www.forbes.com/sites/alexknapp/2017/03/03/industry-veteran-and-satellite-startup-join-forces-to-industrialize-space/#6bff89dc1c09" target="_blank">forbes.com</a>
 	                                </td>
 	                            </tr>
 	                        </table>
 	                    </td>
-	                    <!-- vertical row 1 end-->
-	                    <!--vertical row 2 start-->
+	                    <!-- Article 1 end-->
+	                    <!--Article 2 start-->
 	                    <td class="col" width="200" style="padding: 0 5px; padding-bottom: 10px;">
 	                        <table cellpadding="0" cellspacing="0" align="center">
 	                            <tr>
-	                                <td align="left">
-	                                	<a href="http://www.nbcnews.com/tech/tech-news/tesla-boss-elon-musk-takes-advice-fifth-grader-twitter-n728026" target="_blank"><img src="http://static5.businessinsider.com/image/555f4a026bb3f7102072d40a/elon-musk-didnt-like-his-kids-school-so-he-made-his-own-small-secretive-school-without-grade-levels.jpg" width="140" alt="" style="display: block; border: 0;" /></a>
-	                                </td>
-	                            </tr>
-	                            <tr>
-	                                <td align="left" width="140"style="font-size: 14px; color: #333; padding-top: 10px;">
+	                                <td align="left" width="140" valign="top" style="font-size: 14px; color: #333; padding-top: 10px;">
 	                                    <strong><a href="http://www.nbcnews.com/tech/tech-news/tesla-boss-elon-musk-takes-advice-fifth-grader-twitter-n728026" target="_blank" style="color: #00a9e3;">Tesla Boss Elon Musk Takes Advice From Fifth-Grader Via Twitter</a></strong><br />
 	                                    <a href="http://www.nbcnews.com/tech/tech-news/tesla-boss-elon-musk-takes-advice-fifth-grader-twitter-n728026" target="_blank">nbcnews.com</a>
 	                                </td>
 	                            </tr>
 	                        </table>
 	                    </td>
-	                    <!--vertical row 2 end-->
-	                    <!--vertical row 3 start-->
-	                    <td class="col" width="200" style="padding: 0 5px; padding-bottom: 10px;">
-	                        <table cellpadding="0" cellspacing="0" align="center">
+	                    <!--Article 2 end-->
+	                    <!--Article 3 start-->
+	                    <td class="col" width="200" style="padding: 0 5px; padding-bottom: 10px; ">
+	                        <table cellpadding="0" cellspacing="0" align="center" valign="top">
 	                            <tr>
-	                                <td align="left">
-	                                	<a href="http://time.com/4685370/iphone-8-rumors-charging-2017/" target="_blank"><img src="https://timedotcom.files.wordpress.com/2017/02/gettyimages-501880523.jpg?w=1100&quality=85" width="140" alt="" style="display: block; border: 0;" /></a>
-	                                </td>
-	                            </tr>
-	                            <tr>
-	                                <td align="left" width="140"style="font-size: 14px; color: #333; padding-top: 10px;">
+	                                <td align="left" valign="top" width="140" style="font-size: 14px; color: #333; padding-top: 10px;">
 	                                    <strong><a href="http://time.com/4685370/iphone-8-rumors-charging-2017/" target="_blank" style="color: #00a9e3;">Apple May Be Considering Another Big Change to the iPhone</a></strong><br />
 	                                    <a href="http://time.com/4685370/iphone-8-rumors-charging-2017/" target="_blank">time.com</a>
 	                                </td>
 	                            </tr>
 	                        </table>
 	                    </td>
-	                    <!--vertical row 3 end-->
-	                </tr>
+	                    <!--Article 3 end-->
+
+
+					</tr>
+						<!--HORIZONTAL ARTICLE ROW End, descriptions-->
 	            </table>
 	        </td>
 	    </tr>
 	</table>
-<!--section 3 end-->
+	<!--||| SECTION 3 END |||-->
 
-<!--footer start-->
-	<table cellpadding="0" cellspacing="0" style="width: 600; background-color: #00a9e3;">
-		<tr class="row">
-			<td class="col" valign="top" width="300">
-				<p style="text-align:right; margin-top: 5px; margin-bottom: 0px; padding-bottom: 5px; font-size: 10px; color: #fff; margin-top: 17px;">powered by</p>
-			</td>
-	
-			<td class="col" valign="top" width="300">
-				<a href="http://www.newscart.co" target="_blank"><img src="http://i1040.photobucket.com/albums/b406/Jessie_Wooten/NewsCart-Logo-White-e1487562257763_zpsjxov5zfb.png" border="0" alt=" photo NewsCart-Logo-White-e1487562257763_zpsjxov5zfb.png" style="width: 70px; float: left; padding-left: 5px; padding-top: 3px; margin-bottom: 5px; margin-top: 10px;"/></a>
+	<!--||| FOOTER START |||-->
+	<table cellpadding="0" cellspacing="0" style="background-color: #00a9e3; border-top: 2px solid #7f7f7f;">
+		<tr>
+			<td width="600">
+				<table>
+					<tr class="row" >
+						<td class="col" valign="top" width="300">
+							<p style="text-align:right; margin-top: 5px; margin-bottom: 0px; padding-bottom: 5px; font-size: 10px; color: #fff; margin-top: 17px;">powered by</p>
+						</td>
+
+						<td class="col" valign="top" width="300">
+							<a href="http://www.newscart.co" target="_blank"><img src="http://i1040.photobucket.com/albums/b406/Jessie_Wooten/NewsCart-Logo-White-e1487562257763_zpsjxov5zfb.png" border="0" alt="NewsCart" style="display:block; width: 70px; float: left; padding-left: 5px; padding-top: 3px; margin-bottom: 5px; margin-top: 10px;"/></a>
+						</td>
+					</tr>
+				</table>
 			</td>
 		</tr>
-	</table><!--footer end-->
-		
+	</table>
+	<!--||| FOOTER END |||-->
+
 </body>
 </html>
